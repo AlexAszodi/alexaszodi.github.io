@@ -1,0 +1,148 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+a:active, a:hover, a:visited, a:link{
+  text-decoration: none;
+  color: black;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 1rem;
+  margin: 10px;;
+}
+
+header img{
+	border: 1px solid black;
+	max-height:100px;
+}
+
+header nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.circular {
+	border-radius: 50%;
+}
+
+.navigation .row{
+  display: flex;
+  align-items: center;
+}
+
+header a, .navigation a{
+  position: relative;
+  text-decoration: none;
+  padding: 0 20px;
+  margin: 0;
+  text-align: center;
+}
+
+header a:hover, .navigation a:hover{
+  color: grey;
+}
+
+header a:active, .navigation a:active{
+  top: 1px;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  background-size: cover;
+  color: #ffffff;
+  height: 50px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+#profil,
+#experiences,
+#education,
+#langues,
+#competences,
+#hobbies {
+	margin-bottom: 30px;
+}
+
+#profil img,
+#experiences img,
+#education img,
+#langues img,
+#competences img,
+#hobbies img{
+	width: 100%;
+}
+
+#profil img,
+#experiences img:hover,
+#education img,
+#langues img,
+#competences img,
+#hobbies img{
+	opacity:0%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+footer li img:active {
+  top: 1px;
+}
